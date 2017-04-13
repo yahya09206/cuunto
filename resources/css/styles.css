@@ -51,6 +51,11 @@ h1{
 	word-spacing: 3px;
 }
 
+.logo {
+	height: 100px;
+	width: auto;
+	float: left;
+}
 
 
 /* ---------------------------------- */
