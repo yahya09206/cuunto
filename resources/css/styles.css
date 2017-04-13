@@ -1,4 +1,6 @@
-/*Element Styling*/
+/* ---------------------------------- */
+/*Basic Setup*/
+/* ---------------------------------- */
 * {
 	margin: 0;
 	padding: 0;
@@ -14,6 +16,22 @@ html {
 	text-rendering: optimizeLegibility;
 }
 
+.row {
+	max-width: 1140px;
+	margin: 0 auto;
+}
+
+.hero-text-box{
+	position: absolute;
+	width: 1140px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+/* ---------------------------------- */
+/*Header*/
+/* ---------------------------------- */
 header{
 	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(img/hero.jpg);
 	/*See whole background image*/
@@ -34,24 +52,10 @@ h1{
 }
 
 
-/*ID Styling*/
 
-
-
-/*Class Styling*/
-.row {
-	max-width: 1140px;
-	margin: 0 auto;
-}
-
-.hero-text-box{
-	position: absolute;
-	width: 1140px;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%,-50%);
-}
-
+/* ---------------------------------- */
+/*Buttons*/
+/* ---------------------------------- */
 .btn:link,
 .btn:visited{
 	display: inline-block;
@@ -59,7 +63,7 @@ h1{
 	font-weight: 300;
 	text-decoration: none;
 	border-radius: 200px;
-	transition: background-color 0.2s
+	transition: background-color 0.2s, border 0.2s, color 0.2s;
 }
 
 .btn-full:link,
@@ -67,6 +71,7 @@ h1{
 	background-color: #e67e22;
 	border: 1px solid #e67e22;
 	color: #fff;
+	margin-right: 15px;
 }
 
 .btn-ghost:link,
@@ -75,8 +80,6 @@ h1{
 	color: #e67e22;
 }
 
-
-/*Pseudoclasses*/
 .btn-full:hover,
 .btn-full:active{
 	border: 1px solid #e67e22;
