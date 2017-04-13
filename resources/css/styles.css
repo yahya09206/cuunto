@@ -59,6 +59,7 @@ h1{
 	font-weight: 300;
 	text-decoration: none;
 	border-radius: 200px;
+	transition: background-color 0.2s
 }
 
 .btn-full:link,
@@ -84,7 +85,7 @@ h1{
 .btn-ghost:hover,
 .btn-ghost:active{
 	border: 1px solid #e67e22;
-	color: #e67e22;
+	color: #fff;
 }
 
 .btn:hover,
