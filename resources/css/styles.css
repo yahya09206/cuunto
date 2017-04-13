@@ -74,10 +74,23 @@ h1{
 	color: #e67e22;
 }
 
+
 /*Pseudoclasses*/
+.btn-full:hover,
+.btn-full:active{
+	border: 1px solid #e67e22;
+}
+
+.btn-ghost:hover,
+.btn-ghost:active{
+	border: 1px solid #e67e22;
+	color: #e67e22;
+}
+
 .btn:hover,
 .btn:active{
 	background-color: #cf6d17;
+
 }
 
 
