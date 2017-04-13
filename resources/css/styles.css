@@ -13,11 +13,12 @@ html {
 	text-rendering: optimizeLegibility;
 }
 
+header{
+	background-image: url(img/hero.jpg);
+	height: 100vh;
+}
+
 .row {
 	max-width: 1140px;
 	margin: 0 auto;
-}
-
-header{
-	background-image: url(img/hero.jpg);
 }
