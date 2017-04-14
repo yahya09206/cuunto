@@ -204,7 +204,7 @@ header{
 /*Meals Showcase*/
 /* ---------------------------------- */
 .section-meals{
-
+	padding: 0;
 }
 
 .meals-showcase{
@@ -226,6 +226,7 @@ header{
 .meal-photo img{
 	width: 100%;
 	height: auto;
+	transform: scale(1.15);
 }
 
 
