@@ -210,7 +210,9 @@ header{
 }
 
 .meals-showcase li{
-	
+	display: block;
+	float: left;
+	width: 25%;
 }
 
 
