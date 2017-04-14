@@ -199,6 +199,12 @@ header{
 	border-bottom: 2px solid #e67e22;
 }
 
+/* ---------------------------------- */
+/*Features*/
+/* ---------------------------------- */
+.section-features .long-copy{
+	margin-bottom: 30px;
+}
 
 /* ---------------------------------- */
 /*Meals Showcase*/
