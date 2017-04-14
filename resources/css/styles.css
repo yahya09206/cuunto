@@ -206,6 +206,11 @@ header{
 
 .meals-showcase{
 	list-style: none;
+	width: 100%;
+}
+
+.meals-showcase li{
+	
 }
 
 
