@@ -228,6 +228,11 @@ header{
 	width: 100%;
 	height: auto;
 	transform: scale(1.15);
+	transition: transform 0.5s;
+}
+
+.meal-photo img:hover{
+	transform: scale(1.03);
 }
 
 
