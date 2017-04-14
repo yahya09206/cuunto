@@ -203,6 +203,9 @@ header{
 /* ---------------------------------- */
 /*Meals Showcase*/
 /* ---------------------------------- */
+.section-meals{
+
+}
 
 .meals-showcase{
 	list-style: none;
@@ -222,6 +225,7 @@ header{
 
 .meal-photo img{
 	width: 100%;
+	height: auto;
 }
 
 
