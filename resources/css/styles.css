@@ -374,11 +374,13 @@ blockquote {
 cite{
 	font-size: 90%;
 	margin-top: 25px;
+	display: block;
 }
 
 cite img{
 	height: 50px;
 	border-radius: 50%;
 	margin-right: 10px;
+	vertical-align: middle;
 }
 
