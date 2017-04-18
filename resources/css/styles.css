@@ -123,6 +123,14 @@ h3{
 	margin-top: -5px;
 }
 
+/* -----LINKS----- */
+a:link,
+a:active{
+	color: #e67e22;
+	padding-bottom: 1px;
+	border-bottom: 1px solid #e67e22;
+	text-decoration: none;
+}
 
 /* -----Buttons----- */
 .btn:link,
