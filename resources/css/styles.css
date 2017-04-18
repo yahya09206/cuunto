@@ -110,7 +110,9 @@ h3{
 }
 
 .icon-small{
-	
+	display: inline-block;
+	width: 30px;
+	text-align: center;
 }
 
 
