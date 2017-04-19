@@ -400,6 +400,27 @@ cite img{
 /* ---------------------------------- */
 /*SIGN UP*/
 /* ---------------------------------- */
-.section-plan{
+.section-plans{
 	background-color: #f4f4f4;
+}
+
+.plan-box{
+	background-color: #fff;
+	border-radius: 5px;
+	width: 90%;
+	margin-left: 5%;
+}
+
+.plan-box div {
+	padding: 15px;
+	border-bottom: 1px solid #e8e8e8;
+}
+
+.plan-price{
+	font-size: 300%;
+	margin-bottom: 10px;
+}
+
+.plan-price-meal{
+
 }
