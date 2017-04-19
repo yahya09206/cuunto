@@ -411,8 +411,13 @@ cite img{
 	margin-left: 5%;
 }
 
+.plan-box div:first-child{
+	background-color: #fcfcfc;
+}
+
 .plan-box div:last-child{
 	text-align: center;
+	border: none;
 }
 
 .plan-box div {
@@ -427,7 +432,7 @@ cite img{
 	color: #e67e22;
 }
 
-.plan-price-span{
+.plan-price span{
 	font-size: 30%;
 	font-weight: 300;
 }
