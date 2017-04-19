@@ -409,10 +409,13 @@ cite img{
 	border-radius: 5px;
 	width: 90%;
 	margin-left: 5%;
+	box-shadow: 0 2px 2px #efefef;
 }
 
 .plan-box div:first-child{
 	background-color: #fcfcfc;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
 }
 
 .plan-box div:last-child{
