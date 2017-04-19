@@ -411,6 +411,10 @@ cite img{
 	margin-left: 5%;
 }
 
+.plan-box div:last-child{
+	text-align: center;
+}
+
 .plan-box div {
 	padding: 15px;
 	border-bottom: 1px solid #e8e8e8;
@@ -425,7 +429,7 @@ cite img{
 
 .plan-price-span{
 	font-size: 30%;
-	font-weight: 300%;
+	font-weight: 300;
 }
 
 .plan-price-meal{
